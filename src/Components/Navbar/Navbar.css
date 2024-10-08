@@ -1,0 +1,23 @@
+.Nav{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-top: 5px;
+}
+
+img{
+    width: 150px;
+}
+
+input{
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 20%;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    outline: none;
+    font-size: 18px;
+}
