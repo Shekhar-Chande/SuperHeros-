@@ -1,9 +1,13 @@
 import './App.css'
-import Navbar from './Components/Navbar/Navbar'
+import Front from './Components/Front/Front'
+import { Routes, Route } from 'react-router-dom'
 function App() {
   return (
   <>
-    <Navbar/>
+ 
+  <Routes>
+    <Route path='/' element={<Front/>}/>
+    </Routes>
   </>
   )
 }

@@ -5,7 +5,7 @@ function Navbar(){
         <>
             <div className="Nav">
                 <img src={logo} alt="" />
-                <input type="text" placeholder='Find your SuperHero.....' />
+                {/* <input id='search' type="text" placeholder='Find your SuperHero.....' /> */}
             </div>
         </>
     )
